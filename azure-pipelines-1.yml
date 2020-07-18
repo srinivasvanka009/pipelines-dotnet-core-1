@@ -21,6 +21,6 @@ steps:
     azureSubscription: 'Free Trial (660e9c8c-4855-4bfb-b212-c642bb62e5a0)'
     appType: 'webApp'
     WebAppName: 'pipelineaspnetcore'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForWindows: '$(System.DefaultWorkingDirectory)/bin/Releasenetcoreapp2.2/*.dll'
     enableCustomDeployment: true
     DeploymentType: 'webDeploy'
